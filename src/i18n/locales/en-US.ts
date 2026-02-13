@@ -1,7 +1,5 @@
 export default {
-  components: {
-    example: {
-      title: "Example",
-    },
+  propertyDefaults: {
+    title: "Untitled",
   },
 };
