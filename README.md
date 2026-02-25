@@ -10,12 +10,13 @@ npx quartz plugin add github:quartz-community/page-title
 
 ## Usage
 
-```ts
-// quartz.layout.ts
-import * as Plugin from "./.quartz/plugins";
-
-// Add to your layout
-Plugin.PageTitle(); // in the appropriate layout section
+```yaml title="quartz.config.yaml"
+plugins:
+  - source: github:quartz-community/page-title
+    enabled: true
+    layout:
+      position: left
+      priority: 10
 ```
 
 ## Configuration
@@ -24,7 +25,7 @@ This plugin has no configuration options.
 
 ## Documentation
 
-See the [Quartz documentation](https://quartz.jzhao.xyz/) for more information.
+See the [Quartz documentation](https://quartz.jzhao.xyz/plugins/PageTitle) for more information.
 
 ## License
 
