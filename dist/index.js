@@ -1,9 +1,7 @@
+import { classNames } from '@quartz-community/utils/lang';
 import { jsx } from 'preact/jsx-runtime';
 
 // src/util/lang.ts
-function classNames(...classes) {
-  return classes.filter(Boolean).join(" ");
-}
 
 // src/util/path.ts
 function pathToRoot(slug) {
